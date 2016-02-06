@@ -16,7 +16,7 @@
         dataType: 'script',
         cache: true,
         beforeSend: function() {
-          $btn.html('Carregando..');
+          $btn.html('Loading..');
         }
       }).done(function() {
         $btn.delay(1200).fadeOut().delay(500).html('');
@@ -96,10 +96,10 @@
 
           if(data.success) {
             alertClass = 'alert-success fadeIn hinge';
-            msg = '<p>Formulário enviado com sucesso.</p>';
+            msg = '<p>Form submitted successfully.</p>';
           } else {
             alertClass = 'alert-error shake animated hinge';
-            msg = '<p>Ocorreu um erro no envio do formulário, tente enviar novamente para: <strong>nandomoreira.me@gmail.com</strong></p>';
+            msg = '<p>An error occurred in sending the form, try sending again to: <strong>skusunam@libertyleap.net</strong></p>';
           }
 
           alert.html(msg).addClass(alertClass).fadeIn('600');
@@ -129,7 +129,7 @@
         }
 
         alertClass = 'alert-error shake animated hinge';
-        msg = '<p>Preencha corretamente o formulário.</p>';
+        msg = '<p>Fill out the form.</p>';
 
         alert.html(msg).addClass(alertClass).fadeIn('600');
         $btn.prop('disabled', false);

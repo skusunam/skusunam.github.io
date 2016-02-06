@@ -10,8 +10,8 @@ gems:
   - jekyll-paginate
 
 baseurl: null
-domain_name: nandomoreira.me
-google_analytics: UA-52446115-1
+domain_name: srinikusunam.com
+google_analytics:
 
 source:      source
 destination: _site
@@ -20,25 +20,26 @@ itemtype: WebPage
 cover: /assets/images/facebook.png
 
 # site title, description, keywords
-name: Fernando Moreira
-title: Fernando Moreira • Desenvolvedor web e Front-end
+name: Srini Kusunam
+title: Srini Kusunam • Frontend Developer / Architect
+bio: "Frontend Developer, Responsive Design, Javascript, AngularJS, Baackbone, HTML5 and CSS3, "
 description: "Desenvolvedor Front-end, Design Responsivo, HTML5, CSS3 e JavaScript"
-keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html, html5, css, css3, js, javascript, jquery, seo, otimizacao, performance"
-url: http://nandomoreira.me
-repo: http://github.com/nandomoreirame/nandomoreirame.github.io
-disqus_shortname: "fernandomoreira"
+keywords: "site, website, wordpress, frontend, front-end, html, html5, css, css3, js, javascript, jquery, seo, otimizacao, performance"
+url: http://www.srinikusunam.com/
+repo: http://github.com/skusunam/srinikusunam.github.io
+disqus_shortname: "srinikusunam"
 rss_path: source/
 author:
-  name      : Fernando Moreira
+  name      : Srini Kusunam
   image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
+  email     : skusunam@libertyleap.com
+  url       : http://srinikusunam.com
   # facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
+  twitter   : http://twitter.com/skusunam
   # instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  github    : http://github.com/skusunam
+  linkedin  : http://linkedin.com/in/skusunam
+  bio       : "Founder of LibertyLEAP, frontend Architect at Moneygram. Javascript, Angular, Backbone and meetup organizer and speaker."
 
 
 # Plugin: jekyll-assets
